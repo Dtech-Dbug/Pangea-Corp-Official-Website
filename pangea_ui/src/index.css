@@ -1,13 +1,70 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: black;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.App {
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+/* global class:container : left aligned / white color*/
+.container {
+	text-align: left;
+	color: white;
+	width: 85vw;
+}
+/* changes to the container, was reflecting a while ago, but it is not showing anymore*/
+
+/*Home section styles*/
+.home {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home img {
+	width: 85vw;
+	height: 40vh;
+}
+
+/* Navbar */
+.navbar {
+	height: 100vh;
+	float: right;
+	transform: rotate(90deg) translateX(100%);
+	transform-origin: top right;
+}
+
+.nav-container {
+	display: flex;
+	list-style: none;
+}
+.nav-item {
+	width: 150px;
+	height: 40px;
+	font-size: 1.4rem;
+	color: #ffffff;
+	text-align: center;
+}
+.nav-container .active {
+	color: #ffffff;
+}
+
+/*About*/
