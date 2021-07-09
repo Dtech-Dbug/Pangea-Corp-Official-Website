@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const AppDev = () => {
 	return (
-		<div className="container">
+		<div data-aos="fade-up" className="container">
 			<h2>App Development.</h2>
 
 			<p>

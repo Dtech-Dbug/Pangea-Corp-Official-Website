@@ -2,7 +2,7 @@ import React from "react";
 
 const UI_UX = () => {
 	return (
-		<div className="container">
+		<div data-aos="fade-up" className="container">
 			<h2>UI/UX Design</h2>
 			<p>
 				Design, build, and transform your user’s journey using a highly
