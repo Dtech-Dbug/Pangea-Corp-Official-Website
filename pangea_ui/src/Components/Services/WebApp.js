@@ -2,7 +2,7 @@ import React from "react";
 
 const WebApp = () => {
 	return (
-		<div class="container">
+		<div data-aos="fade-up" class="container">
 			<h2>Web & app development services.</h2>
 
 			<p>
