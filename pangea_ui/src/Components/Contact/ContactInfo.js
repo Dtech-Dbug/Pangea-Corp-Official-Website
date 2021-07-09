@@ -3,20 +3,20 @@ import React from "react";
 const ContactInfo = () => {
 	return (
 		<div className="contact">
-			<h2>Hyderabad</h2>
+			<h3>Hyderabad</h3>
 
 			<div className="address">
-				<h4>Address</h4>
+				<p>Address</p>
 				<p>Hello Hello HEllo</p>
 			</div>
 
 			<div className="mobile">
-				<h4>Contact</h4>
+				<p>Contact</p>
 				<p>+123456789</p>
 			</div>
 
 			<div className="mail">
-				<h4>Write to us</h4>
+				<p>Write to us</p>
 				<p>hello @ hello.com</p>
 			</div>
 		</div>
