@@ -6,7 +6,8 @@ import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
 	return (
-		<div style={{ color: "white" }} className="contact-container">
+		<div className="contact-container">
+			<h2>Contact</h2>
 			<ContactInfo />
 		</div>
 	);
