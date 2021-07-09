@@ -131,3 +131,17 @@ a {
 	height: 100vh;
 	padding: 2rem 0;
 }
+
+/* contact*/
+.contact-container {
+	margin: 0 2rem;
+	padding-bottom: 2rem;
+	color: white;
+	width: 70vw;
+}
+.contact {
+	height: 19rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
