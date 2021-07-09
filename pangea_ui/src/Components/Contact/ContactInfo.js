@@ -2,18 +2,24 @@ import React from "react";
 
 const ContactInfo = () => {
 	return (
-		<>
+		<div className="contact">
 			<h2>Hyderabad</h2>
 
-			<h4>Address</h4>
-			<p>Hello , check check check check</p>
+			<div className="address">
+				<h4>Address</h4>
+				<p>Hello Hello HEllo</p>
+			</div>
 
-			<h4>Contact No.</h4>
-			<p>123456789</p>
+			<div className="mobile">
+				<h4>Contact</h4>
+				<p>+123456789</p>
+			</div>
 
-			<h4>Write To Us</h4>
-			<p>Hello @ hello.com</p>
-		</>
+			<div className="mail">
+				<h4>Write to us</h4>
+				<p>hello @ hello.com</p>
+			</div>
+		</div>
 	);
 };
 
