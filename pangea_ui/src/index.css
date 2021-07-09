@@ -49,9 +49,9 @@ a {
 }
 /* global class:container : left aligned / white color*/
 .container {
-	text-align: justify;
+	text-align: left;
 	color: white;
-	width: 70vw;
+	max-width: 70vw;
 	min-height: 100vh;
 	margin: 0 2rem;
 	padding-bottom: 2rem;
@@ -66,12 +66,12 @@ a {
 .container p {
 	font-family: var(--body);
 	font-size: 1.2rem;
-	line-height: 1.3rem;
+	line-height: 1.5rem;
 	margin-top: 2rem;
 }
 
 .container ul {
-	margin: 1.2rem 1.2rem;
+	margin: 2rem;
 	font-family: var(--body);
 	font-size: 1.2rem;
 }
@@ -144,4 +144,37 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.contact-container h2 {
+	font-family: var(--heading);
+	font-size: 2rem;
+	color: #f6f6f6;
+	font-size: 1.6rem;
+}
+.contact-container ul {
+	background-color: red;
+	height: 1.8rem;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 1.2rem 0;
+	align-items: center;
+}
+
+.contact-container ul li {
+	margin-right: 1rem;
+}
+
+.contact-container ul li {
+	list-style: none;
+	font-size: 0.9rem;
+}
+.contact h3 {
+	font-family: var(--heading);
+	font-size: 1.2rem;
+}
+.contact h3 > div {
+	font-size: 0.8rem;
 }
