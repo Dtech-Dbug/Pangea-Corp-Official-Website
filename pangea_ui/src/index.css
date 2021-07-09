@@ -48,13 +48,20 @@ a {
 	text-align: left;
 	color: white;
 	width: 85vw;
-	font-family: var(--Font);
+}
+
+.container h2 {
+	font-family: var(--heading);
+}
+
+.container p {
+	font-family: var(--body);
+	font-size: 1.2rem;
 }
 /* changes to the container, was reflecting a while ago, but it is not showing anymore*/
 
 /*Home section styles*/
 .home {
-	background-color: red;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -62,7 +69,8 @@ a {
 }
 
 .home img {
-	width: 60vw;
+	display: flex;
+	width: 50vw;
 	height: 40vh;
 }
 
