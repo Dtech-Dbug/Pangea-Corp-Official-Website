@@ -1,10 +1,4 @@
-import React from "react";
-
-//animation library
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init();
+import React, { useEffect } from "react";
 
 const AppDev = () => {
 	return (
