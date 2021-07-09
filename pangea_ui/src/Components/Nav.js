@@ -1,24 +1,22 @@
 import React from "react";
 const Nav = () => {
 	return (
-		<div className="navbar">
-			<ul className="nav-container">
-				<li className="nav-item">
-					<a className="active " href="#Home">
-						Home
-					</a>
+		<nav class="nav">
+			<ul class="nav-container">
+				<li class="nav-item">
+					<a href="#home">Home</a>
 				</li>
-				<li className="nav-item">
-					<a href="#About">About </a>
+				<li class="nav-item">
+					<a href="#about">About</a>
 				</li>
-				<li className="nav-item">
-					<a href="#Service">Service</a>
+				<li class="nav-item">
+					<a href="#services">Services</a>
 				</li>
-				<li className="nav-item">
-					<a href="#Contact">Contact Us</a>
+				<li class="nav-item">
+					<a href="#contact">Contact Us</a>
 				</li>
 			</ul>
-		</div>
+		</nav>
 	);
 };
 
