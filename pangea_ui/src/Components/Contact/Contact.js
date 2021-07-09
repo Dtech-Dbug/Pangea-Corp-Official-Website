@@ -8,7 +8,7 @@ const Contact = () => {
 	return (
 		<div className="contact-container">
 			<h2>Contact</h2>
-			<ContactInfo />
+			<ContactInfo address="hello" contact="+122444" email="hello@hello" />
 		</div>
 	);
 };
