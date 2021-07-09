@@ -1,14 +1,19 @@
 import Home from "./Components/Home";
-import Nav from "./Components/Nav";
 import About from "./Components/About";
+import Nav from "./Components/Nav";
 
+import Service from "./Components/Services/Service";
 function App() {
 	return (
 		<div className="App">
-			<h1>Welcome</h1>
-			<Nav />
-			<Home />
-			<About />
+			<aside>
+				<Nav />
+			</aside>
+			<main>
+				<Home />
+				<About />
+				<Service />
+			</main>
 		</div>
 	);
 }
