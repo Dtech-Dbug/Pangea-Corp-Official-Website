@@ -2,7 +2,7 @@ import React from "react";
 
 const Digital = () => {
 	return (
-		<div>
+		<div className="container">
 			<h2>Digital Transformation</h2>
 
 			<p>

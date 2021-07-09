@@ -6,7 +6,7 @@ import Digial from "./Digital";
 
 const Service = () => {
 	return (
-		<div class="container" id="services">
+		<div id="services">
 			<WebApp />
 			<UI_UX />
 			<AppDev />

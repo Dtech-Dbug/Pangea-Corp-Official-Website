@@ -2,7 +2,7 @@ import React from "react";
 
 const AppDev = () => {
 	return (
-		<div>
+		<div className="container">
 			<h2>App Development.</h2>
 
 			<p>

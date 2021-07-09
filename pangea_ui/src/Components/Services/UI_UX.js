@@ -2,9 +2,8 @@ import React from "react";
 
 const UI_UX = () => {
 	return (
-		<div>
+		<div className="container">
 			<h2>UI/UX Design</h2>
-
 			<p>
 				Design, build, and transform your user’s journey using a highly
 				experienced and disciplined team of researchers and product designers.
