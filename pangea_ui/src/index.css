@@ -30,6 +30,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: black;
+	scroll-behavior: smooth;
 }
 
 code {
@@ -48,7 +49,7 @@ a {
 }
 /* global class:container : left aligned / white color*/
 .container {
-	text-align: left;
+	text-align: justify;
 	color: white;
 	width: 70vw;
 	min-height: 100vh;
@@ -73,6 +74,10 @@ a {
 	margin: 1.2rem 1.2rem;
 	font-family: var(--body);
 	font-size: 1.2rem;
+}
+
+.container-small {
+	padding-top: 45%;
 }
 
 /*Home section styles*/
