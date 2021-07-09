@@ -69,6 +69,12 @@ a {
 	margin-top: 2rem;
 }
 
+.container ul {
+	margin: 1.2rem 1.2rem;
+	font-family: var(--body);
+	font-size: 1.2rem;
+}
+
 /*Home section styles*/
 .home {
 	height: 100vh;
