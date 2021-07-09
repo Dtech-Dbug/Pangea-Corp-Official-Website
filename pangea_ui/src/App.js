@@ -7,6 +7,7 @@ import Service from "./Components/Services/Service";
 //animation
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
 	useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
 				<Home />
 				<About />
 				<Service />
+				<Contact />
 			</main>
 		</div>
 	);
