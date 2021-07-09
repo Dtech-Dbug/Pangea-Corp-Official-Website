@@ -1,8 +1,8 @@
 import React from "react";
 
-const ContactInfo = ({ address, contact, email }) => {
+const ContactInfo = ({ address, contact, email, data }) => {
 	return (
-		<div className="contact">
+		<div className="contact" data-aos={data}>
 			<h3>Hyderabad</h3>
 
 			<div className="address">
