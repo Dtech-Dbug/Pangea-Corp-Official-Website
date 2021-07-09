@@ -1,10 +1,9 @@
 import React from "react";
-import Logo from "../Images/Pangaeacroplogo(Dark).svg";
 import LogoLight from "../Images/Pangaeacroplogo(Light).svg";
 
 function Home() {
 	return (
-		<div className="home">
+		<div className="home" id="home">
 			<img src={LogoLight} alt="" />
 		</div>
 	);
