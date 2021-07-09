@@ -1,3 +1,23 @@
+@font-face {
+	font-family: SFProDisplaySemiBold;
+	src: url("./Fonts/FontsFree-Net-SFProDisplay-Semibold.ttf");
+}
+@font-face {
+	font-family: SfProDisplayMedium;
+	src: url("./Fonts//FontsFree-Net-SFProDisplay-Medium\ \(2\).ttf");
+}
+
+:root {
+	--heading: "SFProDisplaySemiBold";
+	--body: "SfProDisplayMedium";
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -28,28 +48,33 @@ a {
 	text-align: left;
 	color: white;
 	width: 85vw;
+	font-family: var(--Font);
 }
 /* changes to the container, was reflecting a while ago, but it is not showing anymore*/
 
 /*Home section styles*/
 .home {
-	height: 100%;
+	background-color: red;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .home img {
-	width: 85vw;
+	width: 60vw;
 	height: 40vh;
 }
 
 /* Navbar */
 .navbar {
-	height: 100vh;
+	height: 10vh;
+	width: 50vw;
+
 	float: right;
 	transform: rotate(90deg) translateX(100%);
 	transform-origin: top right;
+	background-color: yellow;
 }
 
 .nav-container {
