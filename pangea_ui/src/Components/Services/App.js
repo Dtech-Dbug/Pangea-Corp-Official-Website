@@ -1,5 +1,11 @@
 import React from "react";
 
+//animation library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const AppDev = () => {
 	return (
 		<div className="container">
