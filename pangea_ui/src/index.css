@@ -68,7 +68,10 @@ a {
 .container ul {
 	margin: 2rem;
 	font-family: var(--body);
-	font-size: 1.2rem;
+	font-size: 1rem;
+}
+.container ul li {
+	margin-bottom: 0.5rem;
 }
 
 .container-small {
