@@ -17,27 +17,30 @@ import AOS from "aos";
 
 const Contact = () => {
 	return (
-		<div className="contact-container" id="contect" data-aos="fade-in">
+		<div className="contact-container" id="contact" data-aos="fade-in">
 			<h2>Contact</h2>
 
 			<div className="address-container">
 				<ContactInfo
-					data="fade-out"
+					data="fade-in"
 					address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
 					contact="+0124 415 8000"
 					email="hello@parngeacrop.com"
+					city="Hyderabad"
+				/>
+				<ContactInfo
+					data="slide-right"
+					address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
+					contact="+0124 415 8000"
+					email="hello@parngeacrop.com"
+					city="West Lafayette"
 				/>
 				<ContactInfo
 					data="test"
 					address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
 					contact="+0124 415 8000"
 					email="hello@parngeacrop.com"
-				/>
-				<ContactInfo
-					data="test"
-					address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
-					contact="+0124 415 8000"
-					email="hello@parngeacrop.com"
+					city="Baguio"
 				/>
 			</div>
 		</div>
