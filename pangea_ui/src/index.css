@@ -141,15 +141,18 @@ a {
 }
 
 .address-container {
-	padding-block: 5rem;
+	height: auto;
 }
 
 .contact {
 	height: 14rem;
-	padding: 0.5rem 0.5rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+
+	margin-top: 0.5rem;
 }
 .contact > div > p:first-of-type {
 	color: purple;
