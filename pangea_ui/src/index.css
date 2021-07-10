@@ -33,11 +33,6 @@ body {
 	scroll-behavior: smooth;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
-}
-
 a {
 	text-decoration: none;
 	color: inherit;
@@ -65,7 +60,7 @@ a {
 
 .container p {
 	font-family: var(--body);
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 1.5rem;
 	margin-top: 2rem;
 }
@@ -138,6 +133,10 @@ a {
 	padding-bottom: 2rem;
 	color: white;
 	width: 70vw;
+}
+.contact-container h2 {
+	font-family: var(--heading);
+	font-size: 2rem;
 }
 
 .address-container {
