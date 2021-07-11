@@ -143,8 +143,11 @@ a {
 }
 
 .address-container {
-	height: auto;
-	background-color: orangered;
+	height: 16rem;
+	text-align: left;
+
+	padding: 0.5 1.5rem;
+	width: 100%;
 }
 
 .contact {
