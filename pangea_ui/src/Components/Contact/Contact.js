@@ -59,7 +59,14 @@ const Contact = () => {
 			<div className="contact-container" data-aos="fade-in">
 				<h2>Contact</h2>
 
-				<Carousel showArrows={true} autoPlay infiniteLoop>
+				<Carousel
+					showArrows={true}
+					autoPlay
+					infiniteLoop
+					interval="2500"
+					transitionTime="1000"
+					showArrows={false}
+				>
 					{data.map(
 						({ id, data, address, contact, email, city, country, offset }) => {
 							return (
