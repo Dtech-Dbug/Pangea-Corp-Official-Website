@@ -15,39 +15,38 @@ import AOS from "aos";
 // 	/>
 // );
 
+const data = [
+	{
+		id: 0,
+		data: "slide-down",
+		address:
+			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
+		contact: +9191919191,
+		email: "hello@ hello",
+		city: "Hyederabd",
+		country: "India",
+	},
+];
+
 const Contact = () => {
 	return (
 		<div id="contact">
 			<div className="contact-container" data-aos="fade-in">
 				<h2>Contact</h2>
 
-				<div className="address-container">
-					<ContactInfo
-						data="slide-down"
-						address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
-						contact="+0124 415 8000"
-						email="hello@parngeacrop.com"
-						city="Hyderabad"
-						country="India"
-					/>
-					<ContactInfo
-						data="slide-right"
-						address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
-						contact="+0124 415 8000"
-						email="hello@parngeacrop.com"
-						city="West Lafayette"
-						country="USA"
-					/>
-					<ContactInfo
-						data="slide-up"
-						offset="200"
-						address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
-						contact="+0124 415 8000"
-						email="hello@parngeacrop.com"
-						city="Baguio"
-						country="Phillipines"
-					/>
-				</div>
+				{data.map(({ id, data, address, contact, email, city, country }) => {
+					return (
+						<div className="address-container" key={id}>
+							<ContactInfo
+								city={city}
+								country={country}
+								address={address}
+								contact={contact}
+								email={email}
+							/>
+						</div>
+					);
+				})}
 			</div>
 			<br />
 		</div>
