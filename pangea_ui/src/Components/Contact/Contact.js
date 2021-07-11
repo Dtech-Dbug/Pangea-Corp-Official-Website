@@ -7,6 +7,10 @@ import { Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 
+//import carousel component from library
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 // const contactInfo = () => (
 // 	<ContactInfo
 // 		address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
@@ -18,13 +22,34 @@ import AOS from "aos";
 const data = [
 	{
 		id: 0,
-		data: "slide-down",
+		data: "fade-in",
 		address:
 			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
 		contact: +9191919191,
 		email: "hello@ hello",
 		city: "Hyederabd",
 		country: "India",
+		offset: "20",
+	},
+	{
+		id: 1,
+		data: "slide-down",
+		address:
+			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
+		contact: +9191919191,
+		email: "hello@ hello",
+		city: "West Lafayette",
+		country: "Usa",
+	},
+	{
+		id: 2,
+		data: "slide-down",
+		address:
+			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
+		contact: +9191919191,
+		email: "hello@ hello",
+		city: "Baguio",
+		country: "Phillipines",
 	},
 ];
 
@@ -34,19 +59,23 @@ const Contact = () => {
 			<div className="contact-container" data-aos="fade-in">
 				<h2>Contact</h2>
 
-				{data.map(({ id, data, address, contact, email, city, country }) => {
-					return (
-						<div className="address-container" key={id}>
-							<ContactInfo
-								city={city}
-								country={country}
-								address={address}
-								contact={contact}
-								email={email}
-							/>
-						</div>
-					);
-				})}
+				<Carousel showArrows={true} autoPlay infiniteLoop>
+					{data.map(
+						({ id, data, address, contact, email, city, country, offset }) => {
+							return (
+								<div className="address-container" key={id}>
+									<ContactInfo
+										city={city}
+										country={country}
+										address={address}
+										contact={contact}
+										email={email}
+									/>
+								</div>
+							);
+						}
+					)}
+				</Carousel>
 			</div>
 			<br />
 		</div>
