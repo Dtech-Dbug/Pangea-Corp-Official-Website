@@ -147,7 +147,7 @@ a {
 }
 .nav-item {
 	display: block;
-	color: rgb(255, 255, 255);
+	color: #ffffff;
 	text-decoration: none;
 	padding: 2rem 0;
 	-webkit-transform: rotate(90deg);
@@ -224,3 +224,7 @@ a {
 
 /* Wow , nice work  bro , iin giving the dota margin*/
 /* edited the address-container to make it look better*/
+
+.active {
+	color: crimson;
+}
