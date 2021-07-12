@@ -8,12 +8,11 @@ import Service from "./Components/Services/Service";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Contact from "./Components/Contact/Contact";
-import { Route } from "react-router-dom";
 
 function App() {
 	useEffect(() => {
 		AOS.init({
-			offset: 350,
+			offset: 630,
 			duration: 900,
 		});
 	}, []);
