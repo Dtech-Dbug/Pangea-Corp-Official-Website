@@ -1,23 +1,15 @@
 // Import all other contacts here
 // add a nav on top, to navigate etween the diffrent contact region to make the design cleaner
 
-import React, { useEffect } from "react";
+import React from "react";
 import ContactInfo from "./ContactInfo";
-import { Route } from "react-router-dom";
-import { Link } from "react-router-dom";
-import AOS from "aos";
 
 //import carousel component from library
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-// const contactInfo = () => (
-// 	<ContactInfo
-// 		address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
-// 		contact="+0124 415 8000"
-// 		email="hello@parngeacrop.com"
-// 	/>
-// );
+//let me do the import bro
+import "../../index.css";
 
 const data = [
 	{
@@ -56,13 +48,13 @@ const data = [
 const Contact = () => {
 	return (
 		<div id="contact">
-			<div className="contact-container" data-aos="fade-in">
+			<div className="contact-container" data-aos="fade-up">
 				<h2>Contact</h2>
 
 				<Carousel
 					showArrows={false}
-					autoPlay
-					infiniteLoop
+					// autoPlay
+					// infiniteLoop
 					interval="2500"
 					transitionTime="1000"
 					showStatus={false}
