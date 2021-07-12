@@ -60,12 +60,12 @@ const Contact = () => {
 				<h2>Contact</h2>
 
 				<Carousel
-					showArrows={true}
+					showArrows={false}
 					autoPlay
 					infiniteLoop
 					interval="2500"
 					transitionTime="1000"
-					showArrows={false}
+					showStatus={false}
 				>
 					{data.map(
 						({ id, data, address, contact, email, city, country, offset }) => {
