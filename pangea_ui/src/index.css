@@ -53,7 +53,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: orchid;
 }
 
 .container h2 {
@@ -139,6 +138,11 @@ a {
 	padding-bottom: 2rem;
 	color: white;
 	width: 70vw;
+
+	min-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .contact-container h2 {
 	font-family: var(--heading);
@@ -155,8 +159,7 @@ a {
 
 .contact {
 	height: 14rem;
-	padding-top: 0.3rem;
-	padding-bottom: 0.3rem;
+	padding: 0.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
