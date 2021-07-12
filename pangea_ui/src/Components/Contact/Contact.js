@@ -56,6 +56,7 @@ const Contact = () => {
 				<h2>Contact</h2>
 
 				<Carousel
+					showThumbs={false}
 					showArrows={false}
 					autoPlay
 					infiniteLoop
