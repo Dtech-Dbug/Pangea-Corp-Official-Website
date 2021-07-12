@@ -10221,6 +10221,11 @@
   dependencies:
     "is-arrayish" "^0.3.1"
 
+"single-page-nav@^1.0.0":
+  "integrity" "sha512-hKRa5idHJYsb65NqAGmPeqfcDUOHh8a63+fUL6yuCc5n8ssgEgfSTbucxoYshlL6StUoRHFh7xfEBJc+h/kIag=="
+  "resolved" "https://registry.npmjs.org/single-page-nav/-/single-page-nav-1.0.0.tgz"
+  "version" "1.0.0"
+
 "sisteransi@^1.0.5":
   "integrity" "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="
   "resolved" "https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz"
