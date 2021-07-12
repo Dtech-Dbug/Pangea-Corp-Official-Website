@@ -1,9 +1,9 @@
 import React from "react";
 const Nav = () => {
 	return (
-		<nav class="nav">
+		<nav id="nav" class="nav">
 			<ul class="nav-container">
-				<li class="nav-item">
+				<li class="current nav-item">
 					<a href="#home">Home</a>
 				</li>
 				<li class="nav-item">
