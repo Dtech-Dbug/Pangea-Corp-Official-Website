@@ -17,17 +17,55 @@ function App() {
 		});
 	}, []);
 
+	window.addEventListener("scroll", () => {
+		// fetching the section
+		const sections = document.querySelectorAll("section");
+
+		//fetching the navLists
+		const navLists = document.querySelectorAll(".nav ul li");
+
+		let current = "";
+
+		sections.forEach((section) => {
+			//console.log("section -->", section);
+			const sectionTop = section.offsetTop;
+			const sectionHeight = section.clientHeight;
+
+			if (window.pageYOffset >= sectionTop - sectionHeight / 4) {
+				current = section.getAttribute("id");
+			}
+			console.log("currrent", current);
+		});
+
+		navLists.forEach((li) => {
+			li.classList.remove("active");
+			if (li.classList.contains(current)) {
+				li.classList.add("active");
+			}
+		});
+	});
+
 	return (
 		<div className="App">
 			<aside>
 				<Nav />
 			</aside>
-			<main>
+
+			<section id="home">
 				<Home />
+			</section>
+
+			<section id="about">
 				<About />
+			</section>
+
+			<section id="service">
 				<Service />
+			</section>
+
+			<section id="contact">
 				<Contact />
-			</main>
+			</section>
 		</div>
 	);
 }
