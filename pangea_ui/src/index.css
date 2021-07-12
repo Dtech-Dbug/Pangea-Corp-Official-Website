@@ -179,37 +179,44 @@ a {
 }
 
 .address-container {
-	height: 18rem;
+	height: 21rem;
 	text-align: left;
-	padding: 0.5 1.5rem;
 	width: 100%;
 }
 
 .contact {
 	height: 18rem;
-	padding: 0.5rem;
+
 	padding-bottom: 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 0.5rem;
 }
+
+.contact > div {
+	margin: 0.3rem 0;
+}
 .contact > div > p:first-of-type {
-	color: purple;
 	font-size: 0.8rem;
 	color: #f6f6f6;
 }
 .contact p {
 	font-family: var(--body);
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-weight: 900;
-	color: #393939;
+	color: #ababab;
 }
 
 .contact h3 {
 	font-family: var(--heading);
-	font-size: 1.2rem;
-	color: purple;
+	font-size: 1.5rem;
+	color: #f6f6f6;
+	font-family: var(--heading);
+}
+.contact h3 span {
+	font-family: var(--heading);
+	font-size: 1rem;
 }
 .contact h3 > div {
 	font-size: 0.8rem;
