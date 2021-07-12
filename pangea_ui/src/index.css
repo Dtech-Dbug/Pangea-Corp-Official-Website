@@ -20,6 +20,7 @@
 
 html {
 	scroll-behavior: smooth;
+	font-size: 100%;
 }
 
 body {
@@ -31,6 +32,34 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-color: black;
 	scroll-behavior: smooth;
+	font-weight: 400;
+	line-height: 1.75;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 4.209rem;
+}
+
+h2 {
+	font-size: 3.157rem;
+}
+
+h3 {
+	font-size: 2.369rem;
+}
+
+h4 {
+	font-size: 1.777rem;
+}
+
+h5 {
+	font-size: 1.333rem;
+}
+
+small,
+.text_small {
+	font-size: 0.75rem;
 }
 
 a {
@@ -138,8 +167,7 @@ a {
 	padding-bottom: 2rem;
 	color: white;
 	width: 70vw;
-
-	min-height: 80vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -150,20 +178,19 @@ a {
 }
 
 .address-container {
-	height: 16rem;
+	height: 18rem;
 	text-align: left;
-
 	padding: 0.5 1.5rem;
 	width: 100%;
 }
 
 .contact {
-	height: 14rem;
+	height: 18rem;
 	padding: 0.5rem;
+	padding-bottom: 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	margin-top: 0.5rem;
 }
 .contact > div > p:first-of-type {
@@ -186,3 +213,6 @@ a {
 .contact h3 > div {
 	font-size: 0.8rem;
 }
+
+/* Wow , nice work  bro , iin giving the dota margin*/
+/* edited the address-container to make it look better*/
