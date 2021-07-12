@@ -51,7 +51,7 @@ const data = [
 
 const Contact = () => {
 	return (
-		<div id="contact">
+		<div id="contact-sec">
 			<div className="contact-container" data-aos="fade-up">
 				<h2>Contact</h2>
 
