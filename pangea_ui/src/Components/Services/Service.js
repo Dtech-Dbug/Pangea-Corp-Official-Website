@@ -16,7 +16,7 @@ const Service = () => {
 		});
 	}, []);
 	return (
-		<div id="services">
+		<div id="services-sec">
 			<WebApp />
 			<UI_UX />
 			<AppDev />

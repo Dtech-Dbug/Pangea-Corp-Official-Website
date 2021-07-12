@@ -3,17 +3,20 @@ const Nav = () => {
 	return (
 		<nav id="nav" class="nav">
 			<ul class="nav-container">
-				<li class="current nav-item">
-					<a href="#home">Home</a>
+				<li id="home" class="nav-item test">
+					<a href="#home-sec">Home</a>
 				</li>
-				<li class="nav-item">
-					<a href="#about">About</a>
+
+				<li id="about" class="nav-item">
+					<a href="#about-sec">About</a>
 				</li>
-				<li class="nav-item">
-					<a href="#services">Services</a>
+
+				<li id="service" class="nav-item">
+					<a href="#services-sec">Services</a>
 				</li>
-				<li class="nav-item">
-					<a href="#contact">Contact Us</a>
+
+				<li id="contact" class="nav-item">
+					<a href="#contact-sec">Contact Us</a>
 				</li>
 			</ul>
 		</nav>
