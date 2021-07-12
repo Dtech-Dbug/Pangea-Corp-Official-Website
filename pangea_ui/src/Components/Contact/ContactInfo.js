@@ -12,7 +12,7 @@ const ContactInfo = ({
 	return (
 		<div className="contact" data-aos={data} data-aos-offset={offset}>
 			<h3>
-				{city} , {country}
+				{city} , <span>{country}</span>
 			</h3>
 
 			<div className="address">
