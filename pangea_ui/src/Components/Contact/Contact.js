@@ -11,6 +11,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 //let me do the import bro
 import "../../index.css";
 
+//bro <3
+// it is looking great on mobile
+// i will send you a video, after doing a few minor edits
+
 const data = [
 	{
 		id: 0,
@@ -53,9 +57,9 @@ const Contact = () => {
 
 				<Carousel
 					showArrows={false}
-					// autoPlay
-					// infiniteLoop
-					interval="2500"
+					autoPlay
+					infiniteLoop
+					interval="3500"
 					transitionTime="1000"
 					showStatus={false}
 				>
