@@ -7,29 +7,34 @@ const About = () => {
 				<h2>Biography</h2>
 
 				<p>
-					Pangea Corp is a development company that is cutting-edge. Founded by
-					industry experts with the aim of assisting businesses, startups,
-					entrepreneurs, and visionaories in the development of great products
-					for mobile and web platforms.Believing and nurtuturing,innovation,
-					advancement, and development, introducing technology, and much more
-					are all things we do on a daily basis to ensure that each product is
-					awesome.
+					Pangaea Corp is an innovative, resourceful mobile and web application
+					development company.
 				</p>
 
 				<p>
-					We're a dedicated group of qualified professionals who create custom
-					digital solutions. We provide product advice, technical strategy
-					execution, and ongoing support for enterprise and supported start-ups
-					as a full service company.
+					Established by industry professionals to benefit businesses, startups,
+					entrepreneurs, and visionaries with exceptional products for mobile
+					and web platforms.
 				</p>
 
 				<p>
-					By concentrating on our clients performance and having the customer
-					experience at the forefront of everything we do, we consistently
-					achieve superior results.We are motivatedby the belief that robust
-					technology used in a solution oriented way improves people's lives in
-					meaningful ways.It is our intention that each of our projects
-					contribute to the advancement of this cause.
+					We're a determined organization of qualified professionals who develop
+					custom mobile and web application solutions. We provide product
+					advice, technical strategy execution, and ongoing support for
+					enterprise and supported start-ups as a full-service company.
+				</p>
+
+				<p>
+					At Pangaea Corp, we believe in Accountability, Authenticity, and
+					Adaptability. By concentrating on our clients performance and having
+					the customer experience at the forefront of everything we do, we
+					achieve superior results.
+				</p>
+
+				<p>
+					The belief that inspires us is that robust mobile technology can be
+					used for enhancing people's lives in significant ways. We intend that
+					each of our projects endorse this motive.
 				</p>
 			</div>
 		</div>
