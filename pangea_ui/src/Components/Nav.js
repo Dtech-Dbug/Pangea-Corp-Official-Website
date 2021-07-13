@@ -3,19 +3,19 @@ const Nav = () => {
 	return (
 		<nav id="nav" class="nav">
 			<ul class="nav-container">
-				<li id="home" class="nav-item test">
+				<li id="home" class="nav-item home">
 					<a href="#home-sec">Home</a>
 				</li>
 
-				<li id="about" class="nav-item">
+				<li id="about" class="nav-item about">
 					<a href="#about-sec">About</a>
 				</li>
 
-				<li id="service" class="nav-item">
+				<li id="service" class="nav-item service">
 					<a href="#services-sec">Services</a>
 				</li>
 
-				<li id="contact" class="nav-item">
+				<li id="contact" class="nav-item contact">
 					<a href="#contact-sec">Contact Us</a>
 				</li>
 			</ul>
