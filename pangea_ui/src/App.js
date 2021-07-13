@@ -22,8 +22,9 @@ function App() {
 		const sections = document.querySelectorAll("section");
 
 		//fetching the navLists
-		const navLists = document.querySelectorAll(".nav ul li");
+		const navLists = document.querySelectorAll(".nav .nav-container li");
 
+		console.log(navLists);
 		let current = "";
 
 		sections.forEach((section) => {
@@ -34,7 +35,7 @@ function App() {
 			if (window.pageYOffset >= sectionTop - sectionHeight / 4) {
 				current = section.getAttribute("id");
 			}
-			console.log("currrent", current);
+			//console.log("currrent", current);
 		});
 
 		navLists.forEach((li) => {
