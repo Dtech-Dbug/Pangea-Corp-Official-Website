@@ -71,6 +71,12 @@ a {
 	display: table-cell;
 	vertical-align: middle;
 }
+/* Section Css */
+/* section {
+	height: 100vh;
+	padding: 2rem 0;
+} */
+
 /* global class:container : left aligned / white color*/
 .container {
 	text-align: left;
@@ -109,26 +115,12 @@ a {
 .container-small {
 	padding-top: 45%;
 }
+/*nav*/
 
-/*Home section styles*/
-.home {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.home img {
-	display: flex;
-	width: 50vw;
-	height: 40vh;
-}
-
-/* Navbar */
 .nav {
-	/*the text inside container is uniform, but looks wieird with gaps in between, check that too , i am developing the rest pages*/
 	height: 100%;
 	min-height: 100vh;
+	width: 5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -144,18 +136,54 @@ a {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-.nav-item {
-	display: block;
-	color: #ffffff;
-	text-decoration: none;
-	padding: 2rem 0;
+	display: flex;
+	color: #f6f6f6;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
+/*why the code is breaking upon adding class */
+/*those are imp for nav animation true but each class has hight of 100vh so other componet is pusing down*/
+/*used specoifity = ul li .home should ony style the list named home in ul*/
+/*let us do the animation too , let me rename the section
+
+first make a copy of this code somewhere then add animation
+*/
+.nav-item {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 2rem 0;
+	width: 5rem;
+}
+
+.active {
+	color: crimson;
+	transition: color 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.active::before {
+	content: "hello";
+	background-color: orangered;
+	height: 0.6rem;
+	display: block;
+}
+/*Home section styles*/
+
+.home {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home img {
+	display: flex;
+	width: 50vw;
+	height: 40vh;
+}
+
 /*About*/
 .about {
 	height: 100vh;
@@ -219,11 +247,4 @@ a {
 }
 .contact h3 > div {
 	font-size: 0.8rem;
-}
-
-/* Wow , nice work  bro , iin giving the dota margin*/
-/* edited the address-container to make it look better*/
-
-.active {
-	color: crimson;
 }
