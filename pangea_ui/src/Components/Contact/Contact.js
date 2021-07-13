@@ -21,7 +21,7 @@ const data = [
 		data: "fade-in",
 		address:
 			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
-		contact: +9191919191,
+		contact: "+9191919191",
 		email: "hello@ hello",
 		city: "Hyederabd",
 		country: "India",
@@ -30,9 +30,8 @@ const data = [
 	{
 		id: 1,
 		data: "slide-down",
-		address:
-			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
-		contact: +9191919191,
+		address: "2535 Saddlebrook Dr ,Naperville ,IL, 6056",
+		contact: "(+1) (650) 382 4012",
 		email: "hello@ hello",
 		city: "West Lafayette",
 		country: "Usa",
@@ -40,9 +39,8 @@ const data = [
 	{
 		id: 2,
 		data: "slide-down",
-		address:
-			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
-		contact: +9191919191,
+		address: "Fil-Am Road, Baguio, Benguet, Philippines",
+		contact: "+63 949 727 7981",
 		email: "hello@ hello",
 		city: "Baguio",
 		country: "Phillipines",
