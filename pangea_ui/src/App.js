@@ -52,19 +52,19 @@ function App() {
 				<Nav />
 			</aside>
 
-			<section id="home">
+			<section id="home-section">
 				<Home />
 			</section>
 
-			<section id="about">
+			<section id="about-section">
 				<About />
 			</section>
 
-			<section id="service">
+			<section id="service-section">
 				<Service />
 			</section>
 
-			<section id="contact">
+			<section id="contact-section">
 				<Contact />
 			</section>
 		</div>
