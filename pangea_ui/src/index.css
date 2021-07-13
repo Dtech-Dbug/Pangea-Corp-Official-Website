@@ -155,25 +155,33 @@ first make a copy of this code somewhere then add animation
 */
 .nav-item {
 	color: grey;
-	opacity: 100%;
 	text-decoration: none;
-	padding: 2rem 0;
-	width: 5rem;
+	width: 8rem;
+	margin-bottom: 2rem;
+	border: 2px solid black;
 }
-
+.active::before {
+	transition: all 8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	content: "";
+	background: url("../src/Images/headerArrowLight.svg");
+	/* transform: rotate(-90deg); */
+	background-size: 100% 100%;
+	height: 0.6rem;
+	display: block;
+	animation-timing-function: cubic-bezier(Ease In And Out);
+	animation-duration: 1250s;
+	transition: inherit ease-in-out;
+	-webkit-transition: inherit ease-in-out;
+	-moz-transition: inherit ease-in-out;
+	-ms-transition: inherit ease-in-out;
+	-o-transition: inherit ease-in-out;
+}
 .active {
-	color: #ffffff;
+	color: white;
+	/* transform: scale(1, 0.8); */
 	transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-/* .active::before {
-	content: "";
-	height: 0.3rem;
-	width: 80%;
-	transform: translateX(10%);
-	display: block;
-	transition: all 7s cubic-bezier(0.075, 0.82, 0.165, 1);
-} */
 /*Home section styles*/
 
 .home {
