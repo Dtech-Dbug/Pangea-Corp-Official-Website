@@ -154,14 +154,15 @@ a {
 first make a copy of this code somewhere then add animation
 */
 .nav-item {
-	color: #ffffff;
+	color: grey;
+	opacity: 100%;
 	text-decoration: none;
 	padding: 2rem 0;
 	width: 5rem;
 }
 
 .active {
-	color: crimson;
+	color: #ffffff;
 	transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
