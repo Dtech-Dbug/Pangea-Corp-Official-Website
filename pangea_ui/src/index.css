@@ -84,6 +84,7 @@ a {
 	max-width: 75vw;
 	min-height: 100vh;
 	margin: 0 2rem;
+	margin-top: 1rem;
 	z-index: 300;
 	display: flex;
 	flex-direction: column;
@@ -93,6 +94,7 @@ a {
 .container h2 {
 	font-family: var(--heading);
 	font-size: 2rem;
+	line-height: 1.8rem;
 }
 
 .container p {
@@ -160,15 +162,17 @@ first make a copy of this code somewhere then add animation
 
 .active {
 	color: crimson;
-	transition: color 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.active::before {
-	content: "hello";
-	background-color: orangered;
-	height: 0.6rem;
+/* .active::before {
+	content: "";
+	height: 0.3rem;
+	width: 80%;
+	transform: translateX(10%);
 	display: block;
-}
+	transition: all 7s cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
 /*Home section styles*/
 
 .home {
