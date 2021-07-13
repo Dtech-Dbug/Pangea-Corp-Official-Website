@@ -3,7 +3,6 @@ import React from "react";
 const About = () => {
 	return (
 		<div id="about-sec">
-			<br />
 			<div data-aos="fade-up" className="container">
 				<h2>Biography</h2>
 
