@@ -95,7 +95,6 @@ a {
 	font-family: var(--heading);
 	font-size: 2rem;
 	line-height: 1.8rem;
-	background-color: crimson;
 }
 
 .container p {
@@ -165,17 +164,17 @@ first make a copy of this code somewhere then add animation
 	transition: all 8s cubic-bezier(0.075, 0.82, 0.165, 1);
 	content: "";
 	background: url("../src/Images/headerArrowLight.svg");
-	/* transform: rotate(-90deg); */
+	transform: rotate(-90deg);
 	background-size: 100% 100%;
 	height: 0.6rem;
 	display: block;
-	animation-timing-function: cubic-bezier(Ease In And Out);
+	/*animation-timing-function: cubic-bezier(Ease In And Out);
 	animation-duration: 1250s;
 	transition: inherit ease-in-out;
 	-webkit-transition: inherit ease-in-out;
 	-moz-transition: inherit ease-in-out;
 	-ms-transition: inherit ease-in-out;
-	-o-transition: inherit ease-in-out;
+	-o-transition: inherit ease-in-out;*/
 }
 .active {
 	color: white;
@@ -267,9 +266,11 @@ first make a copy of this code somewhere then add animation
 @media screen and (min-width: 760px) and (min-height: 1024px) {
 	.container h2 {
 		font-size: 6rem;
+		line-height: 6rem;
 		margin-bottom: 1rem;
-		line-height: 2rem;
+
 		word-wrap: break-word;
+		font-family: var(--heading);
 	}
 
 	.container p {
@@ -301,5 +302,13 @@ first make a copy of this code somewhere then add animation
 	}
 	.contact > div p {
 		font-size: 1.5rem;
+	}
+
+	#nav .nav-container {
+		font-size: 1.3rem;
+	}
+
+	.active::before {
+		height: 1rem;
 	}
 }
