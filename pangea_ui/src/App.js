@@ -61,14 +61,10 @@ function App() {
 		});
 	});
 
-	const style = {};
-
 	const workWithUS = () => {
 		return (
-			<h2 className="work-wth-us-header">
-				<p>
-					Have a project in min? <br /> Work with us.
-				</p>
+			<h2 className="work-wth-us-header" data-aos="fade-up">
+				<p>Have a project in mind?Work with us.</p>
 			</h2>
 		);
 	};
