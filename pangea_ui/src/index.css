@@ -81,7 +81,7 @@ a {
 	font-family: var(--heading);
 	font-size: 2rem;
 	line-height: 1.8rem;
-	color: crimson;
+	color: white;
 	max-width: 75vw;
 	min-height: 100vh;
 	margin: 0 2rem;
@@ -170,8 +170,18 @@ first make a copy of this code somewhere then add animation
 	color: grey;
 	text-decoration: none;
 	width: 8rem;
+	height: 3rem;
 	margin-bottom: 2rem;
 	border: 2px solid black;
+
+	position: relative;
+}
+.nav-item a {
+	position: absolute;
+	width: 90%;
+	height: 50%;
+	left: 5%;
+	top: 25%;
 }
 .active::before {
 	transition: all 8s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -284,6 +294,10 @@ first make a copy of this code somewhere then add animation
 
 		word-wrap: break-word;
 		font-family: var(--heading);
+	}
+	.App .work-wth-us-header {
+		font-size: 6rem;
+		line-height: 6rem;
 	}
 
 	.container p {
