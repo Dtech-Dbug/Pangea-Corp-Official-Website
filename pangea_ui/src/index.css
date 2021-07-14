@@ -95,6 +95,7 @@ a {
 	font-family: var(--heading);
 	font-size: 2rem;
 	line-height: 1.8rem;
+	background-color: crimson;
 }
 
 .container p {
@@ -260,4 +261,45 @@ first make a copy of this code somewhere then add animation
 }
 .contact h3 > div {
 	font-size: 0.8rem;
+}
+
+/*media queries*/
+@media screen and (min-width: 760px) and (min-height: 1024px) {
+	.container h2 {
+		font-size: 6rem;
+		margin-bottom: 1rem;
+		line-height: 2rem;
+		word-wrap: break-word;
+	}
+
+	.container p {
+		font-size: 1.5rem;
+		line-height: 3rem;
+	}
+
+	.container ul {
+		font-size: 1.5rem;
+	}
+	.container ul li {
+		line-height: 1.5rem;
+	}
+
+	.contact-container h2 {
+		font-size: 6rem;
+	}
+
+	.contact h3 {
+		font-size: 3rem;
+	}
+	.contact h3 span {
+		font-size: 2rem;
+	}
+
+	.contact > div p:first-child {
+		font-size: 1.2rem;
+		letter-spacing: 0.2rem;
+	}
+	.contact > div p {
+		font-size: 1.5rem;
+	}
 }
