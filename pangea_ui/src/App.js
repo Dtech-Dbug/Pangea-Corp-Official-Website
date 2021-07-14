@@ -24,18 +24,33 @@ function App() {
 		//fetching the navLists
 		const navLists = document.querySelectorAll(".nav .nav-container li");
 
-		console.log(navLists);
+		//console.log(navLists);
 		let current = "";
 
 		sections.forEach((section) => {
 			//console.log("section -->", section);
 			const sectionTop = section.offsetTop;
 			const sectionHeight = section.clientHeight;
+			const scrolHeight = section.scrollHeight;
 
-			if (window.pageYOffset >= sectionTop - sectionHeight / 4) {
+			if (
+				window.pageYOffset >= sectionTop ||
+				window.pageYOffset >= sectionTop - sectionHeight / 4
+			) {
 				current = section.getAttribute("id");
+				console.log(
+					"scroll Height ->",
+					scrolHeight,
+					"sectionTop-->",
+					sectionTop,
+					"section Height ->",
+					sectionHeight,
+					"PageY offset",
+					window.pageYOffset,
+					"current",
+					current
+				);
 			}
-			//console.log("currrent", current);
 		});
 
 		navLists.forEach((li) => {
@@ -45,6 +60,18 @@ function App() {
 			}
 		});
 	});
+
+	const style = {};
+
+	const workWithUS = () => {
+		return (
+			<h2 className="work-wth-us-header">
+				<p>
+					Have a project in min? <br /> Work with us.
+				</p>
+			</h2>
+		);
+	};
 
 	return (
 		<div className="App">
@@ -63,6 +90,8 @@ function App() {
 			<section id="service-section">
 				<Service />
 			</section>
+
+			{workWithUS()}
 
 			<section id="contact-section">
 				<Contact />
