@@ -77,6 +77,19 @@ a {
 	padding: 2rem 0;
 } */
 
+.App .work-wth-us-header {
+	font-family: var(--heading);
+	font-size: 2rem;
+	line-height: 1.8rem;
+	color: crimson;
+	max-width: 75vw;
+	min-height: 100vh;
+	margin: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 /* global class:container : left aligned / white color*/
 .container {
 	text-align: left;
