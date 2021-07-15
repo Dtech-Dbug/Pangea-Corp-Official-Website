@@ -137,9 +137,9 @@ a {
 	min-height: 100vh;
 	width: 5rem;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	float: right;
 	position: fixed;
 	right: 0;
@@ -167,14 +167,13 @@ a {
 first make a copy of this code somewhere then add animation
 */
 .nav-item {
+	position: relative;
 	color: grey;
 	text-decoration: none;
 	width: 8rem;
 	height: 3rem;
-	margin-bottom: 2rem;
-	border: 2px solid black;
-
-	position: relative;
+	margin-bottom: 1.5rem;
+	margin-right: 2rem;
 }
 .nav-item a {
 	position: absolute;
@@ -203,6 +202,9 @@ first make a copy of this code somewhere then add animation
 	color: white;
 	/* transform: scale(1, 0.8); */
 	transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+	margin-right: 67px;
+	/* 67 px : 4.1875 rem  */
+	/* 47 rem : 2.9375 rem */
 }
 
 /*Home section styles*/
