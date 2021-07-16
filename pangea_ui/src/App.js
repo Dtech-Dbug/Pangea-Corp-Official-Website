@@ -12,8 +12,9 @@ import Contact from "./Components/Contact/Contact";
 function App() {
 	useEffect(() => {
 		AOS.init({
-			offset: 590,
+			offset: 630,
 			duration: 900,
+			delay: 100,
 		});
 	}, []);
 
@@ -75,7 +76,7 @@ function App() {
 				<Nav />
 			</aside>
 
-			<section id="home-section">
+			<section id="home-section" data-aos="fade-up" data-aos-duration="900">
 				<Home />
 			</section>
 

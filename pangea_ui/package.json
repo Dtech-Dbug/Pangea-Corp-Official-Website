@@ -1,6 +1,6 @@
 {
 	"name": "Pangaea",
-	"homepage": "https://www.pangaeacorporation.com",
+	"homepage": "http://www.pangaeacorporation.com",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

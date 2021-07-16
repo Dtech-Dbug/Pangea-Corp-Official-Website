@@ -54,13 +54,14 @@ const Contact = () => {
 				<h2>Contact</h2>
 
 				<Carousel
-					showThumbs={false}
 					showArrows={false}
-					autoPlay
+					swipeable={true}
 					infiniteLoop
 					interval="3500"
 					transitionTime="1000"
 					showStatus={false}
+					autoPlay
+					onClickThumb
 				>
 					{data.map(
 						({ id, data, address, contact, email, city, country, offset }) => {
