@@ -12,7 +12,7 @@ import Contact from "./Components/Contact/Contact";
 function App() {
 	useEffect(() => {
 		AOS.init({
-			offset: 630,
+			offset: 590,
 			duration: 900,
 		});
 	}, []);
