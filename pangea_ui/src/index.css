@@ -288,23 +288,24 @@ first make a copy of this code somewhere then add animation
 }
 
 /*media queries*/
-@media screen and (min-width: 760px) and (min-height: 1024px) {
+/*Tabs*/
+@media screen and (min-width: 760px) and (min-width: 992px) {
 	.container h2 {
-		font-size: 6rem;
-		line-height: 6rem;
+		font-size: 4rem;
+		line-height: 4rem;
 		margin-bottom: 1rem;
-
 		word-wrap: break-word;
 		font-family: var(--heading);
 	}
 	.App .work-wth-us-header {
-		font-size: 6rem;
-		line-height: 6rem;
+		font-size: 5rem;
+		line-height: 5rem;
 	}
 
 	.container p {
 		font-size: 1.5rem;
-		line-height: 3rem;
+		line-height: 1.5rem;
+		font-family: var(--body);
 	}
 
 	.container ul {
@@ -315,7 +316,7 @@ first make a copy of this code somewhere then add animation
 	}
 
 	.contact-container h2 {
-		font-size: 6rem;
+		font-size: 4rem;
 	}
 
 	.contact h3 {
@@ -341,3 +342,5 @@ first make a copy of this code somewhere then add animation
 		height: 1rem;
 	}
 }
+
+/* Media Queries for desktop */
