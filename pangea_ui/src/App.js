@@ -3,6 +3,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Nav from "./Components/Nav";
 import Service from "./Components/Services/Service";
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 //animation
 import AOS from "aos";
@@ -65,7 +66,9 @@ function App() {
 	const workWithUS = () => {
 		return (
 			<h2 className="work-wth-us-header" data-aos="fade-up">
-				<p>Have a project in mind?Work with us.</p>
+				<p>Have a project in mind? </p>
+				<br />
+				<p style={{ textDecoration: "underline" }}>Work with us.</p>
 			</h2>
 		);
 	};
