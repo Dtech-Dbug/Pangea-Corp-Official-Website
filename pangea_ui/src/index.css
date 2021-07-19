@@ -106,7 +106,7 @@ a {
 
 .container h2 {
 	font-family: var(--heading);
-	font-size: 2.5rem;
+	font-size: 2rem;
 	line-height: 2rem;
 }
 
@@ -114,17 +114,17 @@ a {
 	font-family: var(--body);
 	font-size: 1rem;
 	line-height: 1.75rem;
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 
 .container ul {
 	margin: 2rem;
 	font-family: var(--body);
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .container ul li {
 	margin-bottom: 0.5rem;
-	line-height: 1.1rem;
+	line-height: 1.2rem;
 }
 
 .container-small {
