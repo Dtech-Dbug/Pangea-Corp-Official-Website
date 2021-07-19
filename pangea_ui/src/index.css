@@ -318,6 +318,11 @@ first make a copy of this code somewhere then add animation
 	.contact-container h2 {
 		font-size: 4rem;
 	}
+	.address-container {
+		height: 25rem;
+		text-align: left;
+		width: 100%;
+	}
 
 	.contact h3 {
 		font-size: 3rem;
