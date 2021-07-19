@@ -53,32 +53,21 @@ const Contact = () => {
 			<div className="contact-container" data-aos="fade-up">
 				<h2>Contact</h2>
 
-				<Carousel
-					showArrows={false}
-					swipeable={true}
-					infiniteLoop
-					interval="3500"
-					transitionTime="1000"
-					showStatus={false}
-					autoPlay
-					onClickThumb
-				>
-					{data.map(
-						({ id, data, address, contact, email, city, country, offset }) => {
-							return (
-								<div className="address-container" key={id}>
-									<ContactInfo
-										city={city}
-										country={country}
-										address={address}
-										contact={contact}
-										email={email}
-									/>
-								</div>
-							);
-						}
-					)}
-				</Carousel>
+				{data.map(
+					({ id, data, address, contact, email, city, country, offset }) => {
+						return (
+							<div className="address-container" key={id}>
+								<ContactInfo
+									city={city}
+									country={country}
+									address={address}
+									contact={contact}
+									email={email}
+								/>
+							</div>
+						);
+					}
+				)}
 			</div>
 			<br />
 		</div>
