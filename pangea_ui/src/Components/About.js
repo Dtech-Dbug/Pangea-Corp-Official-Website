@@ -3,7 +3,13 @@ import React from "react";
 const About = () => {
 	return (
 		<div id="about-sec" data-aos="fade-up">
-			<div data-aos="fade-up" data-aos-delay="100" className="container">
+			<br />
+			<div
+				data-aos="fade-up"
+				data-aos-delay="100"
+				className="container"
+				style={{ padding: "6rem 0" }}
+			>
 				<h2>Biography</h2>
 
 				<p>
