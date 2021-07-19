@@ -30,7 +30,7 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: black;
+	background-color: white;
 	scroll-behavior: smooth;
 	font-weight: 400;
 	line-height: 1.75;
@@ -81,7 +81,7 @@ a {
 	font-family: var(--heading);
 	font-size: 2rem;
 	line-height: 1.8rem;
-	color: white;
+	color: black;
 	max-width: 75vw;
 	min-height: 100vh;
 	margin: 0 2rem;
@@ -93,7 +93,7 @@ a {
 /* global class:container : left aligned / white color*/
 .container {
 	text-align: left;
-	color: white;
+	color: black;
 	max-width: 75vw;
 	min-height: 100vh;
 	margin: 0 2rem;
@@ -106,21 +106,21 @@ a {
 
 .container h2 {
 	font-family: var(--heading);
-	font-size: 2rem;
-	line-height: 1.8rem;
+	font-size: 2.5rem;
+	line-height: 2rem;
 }
 
 .container p {
 	font-family: var(--body);
 	font-size: 1rem;
-	line-height: 1.5rem;
+	line-height: 1.75rem;
 	margin-top: 2rem;
 }
 
 .container ul {
 	margin: 2rem;
 	font-family: var(--body);
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 .container ul li {
 	margin-bottom: 0.5rem;
@@ -185,7 +185,7 @@ first make a copy of this code somewhere then add animation
 .active::before {
 	transition: all 8s cubic-bezier(0.075, 0.82, 0.165, 1);
 	content: "";
-	background: url("../src/Images/headerArrowLight.svg");
+	background: url("./Images/HeaderPointer.svg");
 	transform: rotate(-90deg);
 	background-size: 100% 100%;
 	height: 0.6rem;
@@ -199,7 +199,7 @@ first make a copy of this code somewhere then add animation
 	-o-transition: inherit ease-in-out;*/
 }
 .active {
-	color: white;
+	color: black;
 	/* transform: scale(1, 0.8); */
 	transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
 	margin-right: 67px;
@@ -232,7 +232,7 @@ first make a copy of this code somewhere then add animation
 .contact-container {
 	margin: 0 2rem;
 	padding-bottom: 2rem;
-	color: white;
+	color: black;
 	width: 70vw;
 	min-height: 100vh;
 	display: flex;
@@ -264,19 +264,19 @@ first make a copy of this code somewhere then add animation
 }
 .contact > div > p:first-of-type {
 	font-size: 0.8rem;
-	color: #f6f6f6;
+	color: black;
 }
 .contact p {
 	font-family: var(--body);
 	font-size: 1rem;
 	font-weight: 900;
-	color: #ababab;
+	color: black;
 }
 
 .contact h3 {
 	font-family: var(--heading);
 	font-size: 1.5rem;
-	color: #f6f6f6;
+	color: black;
 	font-family: var(--heading);
 }
 .contact h3 span {
