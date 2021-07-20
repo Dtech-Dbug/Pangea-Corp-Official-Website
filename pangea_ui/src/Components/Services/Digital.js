@@ -3,7 +3,7 @@ import React from "react";
 const Digital = () => {
 	return (
 		<div data-aos="fade-up" className="container">
-			<h2>Digital Transformation</h2>
+			<h2>Digital Transformation.</h2>
 
 			<p>
 				Radically transform the way you apply technology to serve your customers

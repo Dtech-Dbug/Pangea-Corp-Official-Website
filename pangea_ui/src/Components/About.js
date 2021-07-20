@@ -10,7 +10,7 @@ const About = () => {
 				className="container"
 				style={{ padding: "6rem 0" }}
 			>
-				<h2>Biography</h2>
+				<h2>Biography.</h2>
 
 				<p>
 					Pangaea Corp is an innovative, resourceful mobile and web application

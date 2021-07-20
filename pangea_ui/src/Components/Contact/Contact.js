@@ -51,7 +51,7 @@ const Contact = () => {
 	return (
 		<div id="contact-sec">
 			<div className="contact-container" data-aos="fade-up">
-				<h2>Contact</h2>
+				<h2>Contact.</h2>
 
 				{data.map(
 					({ id, data, address, contact, email, city, country, offset }) => {
