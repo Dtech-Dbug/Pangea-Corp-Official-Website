@@ -23,7 +23,7 @@ const data = [
 			"82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033",
 		contact: "+91-78936 97703",
 		email: "support@pangaeacorporation.com",
-		city: "Hyederabad",
+		city: "Hyderabad",
 		country: "India",
 		offset: "20",
 	},
