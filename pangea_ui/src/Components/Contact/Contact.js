@@ -1,9 +1,4 @@
-// Import all other contacts here
-// add a nav on top, to navigate etween the diffrent contact region to make the design cleaner
-
 import React from "react";
-import ContactInfo from "./ContactInfo";
-
 //import carousel component from library
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -52,22 +47,6 @@ const Contact = () => {
 		<div id="contact-sec">
 			<div className="contact-container" data-aos="fade-up">
 				<h2>Contact.</h2>
-
-				{data.map(
-					({ id, data, address, contact, email, city, country, offset }) => {
-						return (
-							<div className="address-container" key={id}>
-								<ContactInfo
-									city={city}
-									country={country}
-									address={address}
-									contact={contact}
-									email={email}
-								/>
-							</div>
-						);
-					}
-				)}
 			</div>
 			<br />
 		</div>
