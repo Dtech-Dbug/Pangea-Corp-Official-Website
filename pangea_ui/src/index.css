@@ -337,13 +337,6 @@ first make a copy of this code somewhere then add animation
 
 	#nav .nav-container {
 		font-size: 1.3rem;
-		background-color: yellow;
-	}
-
-	/* list items  under nav */
-	#nav li > a {
-		color: #ff3131;
-		background-color: crimson;
 	}
 }
 
