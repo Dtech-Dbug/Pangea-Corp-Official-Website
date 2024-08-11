@@ -2,17 +2,17 @@ import React from "react";
 
 const WebApp = () => {
 	return (
-		<div data-aos="fade-up" class="container">
-			<h2>Web & app development services.</h2>
+    <div data-aos="fade-up" class="container">
+      <h2>Influencer Marketing.</h2>
 
-			<p>
-				At Pangaea Corp, we partner with clients to deliver transformative
-				digital experiences changing the way product leaders think about app
-				design and software development, we help companies of all scale bring
-				new software products to market with speed and expertise.
-			</p>
-		</div>
-	);
+      <p>
+        We identify and partner with influencers who align with your brand
+        values and can amplify your message across digital platforms. Our
+        data-driven approach ensures that collaborations are both authentic and
+        effective, driving engagement and conversions.
+      </p>
+    </div>
+  );
 };
 
 export default WebApp;

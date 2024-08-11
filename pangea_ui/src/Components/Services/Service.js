@@ -4,6 +4,7 @@ import WebApp from "./WebApp";
 import UI_UX from "./UI_UX";
 import AppDev from "./AppDev";
 import Digital from "./Digital";
+import HouseOfContents from "./HouseOfContents";
 
 //animation
 import AOS from "aos";
@@ -17,13 +18,14 @@ const Service = () => {
 		});
 	}, []);
 	return (
-		<div id="services-sec">
-			<WebApp />
-			<UI_UX />
-			<AppDev />
-			<Digital />
-		</div>
-	);
+    <div id="services-sec">
+      <WebApp />
+      <UI_UX />
+      <AppDev />
+      <Digital />
+      <HouseOfContents />
+    </div>
+  );
 };
 
 export default Service;
