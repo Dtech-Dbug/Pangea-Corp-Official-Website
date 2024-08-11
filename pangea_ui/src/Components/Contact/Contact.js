@@ -44,20 +44,14 @@ const data = [
 
 const Contact = () => {
 	return (
-		<div id="contact-sec">
-			<div className="contact-container" data-aos="fade-up">
-				<h2>Contact.</h2>
-			</div>
-			<br />
-		</div>
-	);
+    <div id="contact-sec">
+      <div className="contact-container" data-aos="fade-up">
+        <h2>Contact.</h2>
+      </div>
+      <br />
+    </div>
+  );
 };
 
 export default Contact;
 
-/*
-<ContactInfo
-					address="82/A, Usha Jubilee Town 36, 4th Floor, 8-2-293, Rd Number 36, Jubilee Hills, Hyderabad, Telangana 500033"
-					contact="+0124 415 8000"
-					email="hello@parngeacrop.com"
-				/>*/
