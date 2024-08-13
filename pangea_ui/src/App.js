@@ -1,14 +1,15 @@
-import { useEffect } from "react";
-import Home from "./Components/Home";
-import About from "./Components/About";
+import { useEffect, Suspense, lazy } from "react";
 import Nav from "./Components/Nav";
-import Service from "./Components/Services/Service";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 //animation
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Contact from "./Components/Contact/Contact";
+
+// Lazy load components
+const Home = lazy(() => import("./Components/Home"));
+const About = lazy(() => import("./Components/About"));
+const Service = lazy(() => import("./Components/Services/Service"));
+const Contact = lazy(() => import("./Components/Contact/Contact"));
 
 function App() {
 	useEffect(() => {
@@ -23,14 +24,12 @@ function App() {
 		// fetching the section
 		const sections = document.querySelectorAll("section");
 
-		//fetching the navLists
+		// fetching the navLists
 		const navLists = document.querySelectorAll(".nav .nav-container li");
 
-		//console.log(navLists);
 		let current = "";
 
 		sections.forEach((section) => {
-			//console.log("section -->", section);
 			const sectionTop = section.offsetTop;
 			const sectionHeight = section.clientHeight;
 			const scrolHeight = section.scrollHeight;
@@ -79,23 +78,25 @@ function App() {
 				<Nav />
 			</aside>
 
-			<section id="home-section" data-aos="fade-up" data-aos-duration="900">
-				<Home />
-			</section>
+			<Suspense fallback={<div>Loading...</div>}>
+				<section id="home-section" data-aos="fade-up" data-aos-duration="900">
+					<Home />
+				</section>
 
-			<section id="about-section">
-				<About />
-			</section>
+				<section id="about-section">
+					<About />
+				</section>
 
-			<section id="service-section">
-				<Service />
-			</section>
+				<section id="service-section">
+					<Service />
+				</section>
 
-			{workWithUS()}
+				{workWithUS()}
 
-			<section id="contact-section">
-				<Contact />
-			</section>
+				<section id="contact-section">
+					<Contact />
+				</section>
+			</Suspense>
 		</div>
 	);
 }

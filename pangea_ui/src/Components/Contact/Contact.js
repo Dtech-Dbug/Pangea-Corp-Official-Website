@@ -4,11 +4,6 @@
 import React from "react";
 import ContactInfo from "./ContactInfo";
 
-//import carousel component from library
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-//let me do the import bro
 import "../../index.css";
 
 const data = [
